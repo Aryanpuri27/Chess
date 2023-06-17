@@ -5,5 +5,6 @@ const homeController = require("../controllers/homeController");
 console.log("router");
 
 Router.route("/").get(homeController.getLandingPage);
+Router.route("/home").get(homeController.getLandingPage);
 
 module.exports = Router;
