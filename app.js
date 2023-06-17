@@ -7,6 +7,7 @@ app.use(express.static(__dirname + "/static"));
 app.use(express.json());
 app.set("view engine", "ejs");
 
+app.use("/", homeRoute);
 app.use("/home", homeRoute);
 app.use("/board", boardRoute);
 module.exports = app;
