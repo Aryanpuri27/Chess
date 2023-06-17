@@ -11,7 +11,7 @@ function getboard() {
   // const queryParams = new URLSearchParams(roomId);
 
   window.location.href =
-    "https://chess-online-c29k.onrender.com/board/?roomId=" + roomId + `#${roomId}`;
+    "https://chess-online-c29k.onrender.com/board?roomId=" + roomId + `#${roomId}`;
   // fetch("http://127.0.0.1:3200/board?" + queryParams);
   // fetch("http://127.0.0.1:3200/board?" + queryParams)
   //   .then((response) => {
